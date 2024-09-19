@@ -10,12 +10,18 @@ COPY package*.json ./
 # Instalar las dependencias
 RUN npm install
 
+# Instalar serve globalmente en el contenedor
+RUN npm install -g serve
+
 # Copiar el resto de los archivos
 COPY . .
 
-# Exponer el puerto 3000
+# Construir la aplicación
+RUN npm run build
+
+# Exponer el puerto 3005
 EXPOSE 3005
 
 # Iniciar la aplicación
-CMD ["npm", "start"]
+CMD ["serve", "-s", "build"]
 
