@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "IreneDiaz",
-      "titles": [ "Gymbro", "pringada", "Developer" ],
+      "titles": [ "Web", "Application", "Developer" ],
       "social": [
         {
           "name": "github",
@@ -14,7 +14,7 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile.png"
     },
     "skills": {
       "icons": [
