@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello!",
-    "description": "I am Irene Diaz, a software developer with experience in web and mobile application development. I love learning new technologies and working on challenging projects. I am always eager to learn and collaborate in a team.",
+    "description": "I am Irene Díaz, a software developer with experience in web application development. I love learning new technologies and working on challenging projects. I am always willing to learn and work in a team.",
     "section_name": {
       "about": "About Me",
       "projects": "Projects",
@@ -11,53 +11,64 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most extensive application I had the opportunity to work on. I've learned many technologies and my code was reviewed by an amazing curator. The application handles all adoption processes and allows for storing records on animals adopted from the shelter.",
+      "title": "The World of Animals",
+      "startDate": "2021",
+      "description": "The application that helped me learn to master React. It is adapted to all types of screens, and its basic functionality is a CRUD system.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/animal-world/p1.jpg",
+        "images/portfolio/animal-world/p2.png",
+        "images/portfolio/animal-world/p3.png"
       ],
-      "url": "",
+      "url": "https://gitlab.com/David_Alonso_AlvarezDePerea/proyecto-diseno",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-react-plain",
+          "name": "React"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-sass-plain",
+          "name": "Sass"
         }
       ]
     },
     {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for a study subject. I was responsible for testing a photography application that optimizes images using popular algorithms from graphic editors like Pixlr or Adobe Photoshop. I earned an A grade :)",
+      "title": "Serviboda",
+      "startDate": "2020",
+      "description": "Personal project for a subject on markup languages. I was responsible for creating a website for an event organization company, where I had to apply the knowledge of CSS and HTML learned that year.",
       "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
+        "images/portfolio/photography/p1.webp",
+        "images/portfolio/photography/p2.png",
+        "images/portfolio/photography/p3.png",
+        "images/portfolio/photography/p4.png"
       ],
-      "url": "https://github.com",
+      "url": "https://github.com/irene-diaz/serviboda",
       "technologies": [
         {
-          "class": "devicon-react-original",
-          "name": "React"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         },
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
         }
       ]
     },
     {
       "title": "3D Object Viewer",
       "startDate": "2015",
-      "description": "One of the first apps I worked on during my internship. I had to develop the front-end for an app that shows 3D models of well-known buildings. This was also my first project using the Angular framework. I learned a lot!",
+      "description": "One of the first applications I worked on during my internship. I had to develop the front-end implementation for an app that displays 3D models of famous buildings. This was also my first project with the Angular framework. I learned a lot!",
       "images": [
         "images/portfolio/adventure/p1.jpg",
         "images/portfolio/adventure/p2.jpg"
@@ -81,38 +92,35 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
+      "company": "IES Carlos Bousoño",
+      "title": "Web Application Developer",
+      "years": "10.2020 - present",
       "mainTech": [
-        "Angular 8/9/10"
+        "Higher Degree"
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
+        "SQL",
+        "MySQL",
+        "Java",
+        "HTML",
+        "CSS",
         "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "React",
+        "Svelte",
+        "Sveltekit",
+        "Avast",
+        "XML",
+        "PHP"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
+      "company": "EOI Majadahonda",
+      "title": "B2 Level",
+      "years": "01.2021 - 09.2023",
       "mainTech": [
-        "Angular 7/8"
+        "B2 English Certificate"
       ],
-      "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
-        "JavaScript",
-        "DHTMLX Gantt"
-      ]
+      "technologies": []
     }
   ]
 }
