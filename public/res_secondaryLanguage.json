@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello!",
-    "description": "I am Irene Díaz, a software developer with experience in web application development. I love learning new technologies and working on challenging projects. I am always willing to learn and work in a team.",
+    "description": "I am Irene Díaz, a software developer with experience in web application development. I love learning new technologies and working on challenging projects. I am always willing to learn and work as part of a team.",
     "section_name": {
       "about": "About Me",
       "projects": "Projects",
@@ -13,7 +13,7 @@
     {
       "title": "The World of Animals",
       "startDate": "2021",
-      "description": "The application that helped me learn to master React. It is adapted to all types of screens, and its basic functionality is a CRUD system.",
+      "description": "This application helped me learn how to master React. It is adapted to all types of screens, and its basic functionality is a CRUD system.",
       "images": [
         "images/portfolio/animal-world/p1.jpg",
         "images/portfolio/animal-world/p2.png",
@@ -42,9 +42,9 @@
     {
       "title": "Serviboda",
       "startDate": "2020",
-      "description": "Personal project for a subject on markup languages. I was responsible for creating a website for an event organization company, where I had to apply the knowledge of CSS and HTML learned that year.",
+      "description": "Personal project for a subject on markup languages. I was responsible for creating a website for an event planning company, where I applied the knowledge I gained in CSS and HTML that year.",
       "images": [
-        "images/portfolio/photography/p1.webp",
+         "images/portfolio/photography/p1.jpg",
         "images/portfolio/photography/p2.png",
         "images/portfolio/photography/p3.png",
         "images/portfolio/photography/p4.png"
@@ -66,26 +66,38 @@
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first applications I worked on during my internship. I had to develop the front-end implementation for an app that displays 3D models of famous buildings. This was also my first project with the Angular framework. I learned a lot!",
+      "title": "Hyfe Films",
+      "startDate": "2023",
+      "description": "In one of the most recent projects I've worked on, the application is divided into two main profiles: admin and user. The admin profile allows content management, offering functions to add new films as well as edit or delete existing ones. On the other hand, the user profile, which is accessed via registration, allows users to explore films by categories and other criteria selected through buttons. It also includes a search feature to facilitate navigation and title searches. The entire project was developed using Svelte, a new language for me, which I had the opportunity to learn and apply in this project.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/films/p.gif",
+        "images/portfolio/films/p1.png",
+        "images/portfolio/films/p2.png",
+        "images/portfolio/films/p3.png",
+        "images/portfolio/films/p4.png",
+        "images/portfolio/films/p5.png",
+        "images/portfolio/films/p6.png",
+        "images/portfolio/films/p7.png",
+        "images/portfolio/films/p8.png",
+        "images/portfolio/films/p9.png"
       ],
-      "url": "https://github.com",
+      "url": "https://github.com/irene-diaz/cinekit.git",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-svelte-plain",
+          "name": "Svelte"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-json-plain",
+          "name": "JSON"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
         }
       ]
     }

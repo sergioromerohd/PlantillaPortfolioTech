@@ -42,9 +42,9 @@
     {
       "title": "Serviboda",
       "startDate": "2020",
-      "description": "Proyecto personal para la asignatura de lenguaje de marcas. Fui responsable de crear una pagina web para una empresa de organizacion de eventos, en ella tenia que plamar los conocimientos obtenidos en css y html de ese año.",
+      "description": "Proyecto personal para la asignatura de lenguaje de marcas. Fui responsable de crear una pagina web para una empresa de organizacion de eventos, en ella tenia que plasmar mis conocimientos obtenidos en css y html de ese año.",
       "images": [
-        "images/portfolio/photography/p1.webp",
+        "images/portfolio/photography/p1.jpg",
         "images/portfolio/photography/p2.png",
          "images/portfolio/photography/p3.png",
           "images/portfolio/photography/p4.png"
@@ -66,26 +66,38 @@
       ]
     },
     {
-      "title": "Visor de Objetos 3D",
-      "startDate": "2015",
-      "description": "Una de las primeras aplicaciones en las que trabajé durante mi pasantía. Tuve que desarrollar la implementación del front-end para una aplicación que muestra modelos 3D de edificios conocidos. Este también fue mi primer proyecto con el framework Angular. ¡Aprendí mucho!",
+      "title": "Hyfe Films",
+      "startDate": "2023",
+      "description": "En uno de los proyectos más recientes en los que he participado, la aplicación se divide en dos perfiles principales: administrador y usuario. El perfil administrador permite gestionar el contenido, ofreciendo funciones para añadir nuevas películas, así como editar o eliminar las existentes. Por otro lado, el perfil usuario, al que se accede mediante un registro, brinda la posibilidad de explorar películas por categorías y otros criterios seleccionados a través de botones. Además, incluye un buscador para facilitar la navegación y búsqueda de títulos. Todo el proyecto ha sido desarrollado utilizando Svelte, un lenguaje nuevo para mí, que tuve la oportunidad de aprender y aplicar en este trabajo.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/films/p.gif",
+        "images/portfolio/films/p1.png",
+        "images/portfolio/films/p2.png",
+        "images/portfolio/films/p3.png",
+        "images/portfolio/films/p4.png",
+        "images/portfolio/films/p5.png",
+        "images/portfolio/films/p6.png",
+        "images/portfolio/films/p7.png",
+        "images/portfolio/films/p8.png",
+        "images/portfolio/films/p9.png"
       ],
-      "url": "https://github.com",
+      "url": "https://github.com/irene-diaz/cinekit.git",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-svelte-plain",
+          "name": "Svelte"
+        },
+         {
+          "class": "devicon-css3-plain",
+          "name": "Css"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-json-plain",
+          "name": "Json"
         },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+         {
+          "class": "devicon-html5-plain",
+          "name": "html5"
         }
       ]
     }
