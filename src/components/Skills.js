@@ -34,6 +34,9 @@ class Skills extends Component {
           </div>
           <div className="col-md-12 text-center">
             <ul className="list-inline mx-auto skill-icon">{skills}</ul>
+            <a href="../images/Professional CV Irene.png" target="_blank" class="cv">
+              <h2>Pincha aquí para ver mi CV completo</h2>
+            </a>
           </div>
         </div>
       </section>

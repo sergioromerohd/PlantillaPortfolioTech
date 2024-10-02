@@ -220,6 +220,7 @@ header h1 {
 
 #resume {
 	background: #efe1bd;
+	padding-bottom: 8% !important;
 }
 
 .experience-icon {
@@ -381,7 +382,7 @@ header h1 {
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
-	padding-bottom: 10%;
+	padding-bottom: 8%;
 }
 
 .section-title {
@@ -399,6 +400,7 @@ header h1 {
 	color: white;
 	text-align: center;
 	position: relative;
+	margin-bottom: 100px;
 }
 
 footer {
@@ -425,4 +427,13 @@ footer a:focus {
 .social-links {
 	margin-top: 50px;
 	font-size: 22px;
+}
+
+.cv{
+	color:#AE944F;
+	text-transform: uppercase;
+}
+.cv:hover{
+	
+	color: #AE944F;
 }
