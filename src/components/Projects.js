@@ -23,21 +23,47 @@ class Projects extends Component {
           <div
             className="col-sm-12 col-md-6 col-lg-4"
             key={projects.title}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", marginBottom: "2rem" }}
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
+                <div style={{ position: 'relative', overflow: 'hidden' }}>
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
-                    height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    height="250"
+                    style={{
+                      marginBottom: 0, 
+                      paddingBottom: 0, 
+                      width: '100%',
+                      objectFit: 'cover',
+                      borderRadius: '15px 15px 0 0'
+                    }}
                   />
                   <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
+                  <div className="portfolio-item-caption">
+                    <div className="portfolio-item-caption-content">
+                      Ver detalles
+                    </div>
+                  </div>
+                </div>
+                <div style={{ 
+                  padding: '20px', 
+                  background: 'var(--bg-primary)', 
+                  borderRadius: '0 0 15px 15px',
+                  border: '1px solid var(--border-color)',
+                  borderTop: 'none'
+                }}>
+                  <p className="project-title-settings">
                     {projects.title}
+                  </p>
+                  <p style={{ 
+                    fontSize: '0.9rem', 
+                    color: 'var(--text-secondary)', 
+                    margin: '10px 0 0 0',
+                    lineHeight: '1.4'
+                  }}>
+                    {projects.description.substring(0, 100)}...
                   </p>
                 </div>
               </div>
@@ -49,18 +75,20 @@ class Projects extends Component {
 
     return (
       <section id="portfolio">
-        <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+        <div className="container">
+          <div className="col-md-12">
+            <h1>
+              <span>{sectionName}</span>
+            </h1>
+            <div className="col-md-12 mx-auto">
+              <div className="row mx-auto">{projects}</div>
+            </div>
+            <ProjectDetailsModal
+              show={this.state.detailsModalShow}
+              onHide={detailsModalClose}
+              data={this.state.deps}
+            />
           </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
-            data={this.state.deps}
-          />
         </div>
       </section>
     );
